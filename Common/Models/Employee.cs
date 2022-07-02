@@ -10,7 +10,7 @@ namespace Common.Models
         public double MedicalAllowance { get; set; }
         public double TravelAllowance { get; set; }
         public string ComputerDetails { get; set; }
-
         public string Designation { get; set; }
+        public string SystemConfiguration { get; set; }
     }
 }
