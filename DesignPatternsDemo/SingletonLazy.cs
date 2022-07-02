@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsDemo
+namespace SingletonPatternDemo
 {
     public sealed class SingletonLazy
     {
@@ -20,7 +20,6 @@ namespace DesignPatternsDemo
                 return instance.Value;
             }
         }
-
         public void Print(string message)
         {
             Console.WriteLine(message);

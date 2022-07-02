@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsDemo
+namespace SingletonPatternDemo
 {
     public sealed class Singleton
     {
@@ -32,7 +32,6 @@ namespace DesignPatternsDemo
                 return instance;
             }
         }
-
         public void Print(string message)
         {
             Console.WriteLine(message);
