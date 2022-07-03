@@ -14,7 +14,5 @@ namespace BuilderDesignPattern.Product
         public string Mouse { get; set; }
         public string Touchscreen { get; set; }
 
-
-
     }
 }
